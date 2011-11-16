@@ -1,0 +1,239 @@
+@import "../lib/bootstrap.less";
+@import "960_16_col.css";
+
+body {
+    text-shadow: 0 0 1px rgba(0,0,0,.03);
+    text-align: center;
+    position: relative;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+div#top {
+    height: 560px;
+    background-color: #000;
+    background-image: url('/images/tile-header.gif');
+    .main {
+        background-image: url('/images/header.jpg');
+        height: 500px;
+    }
+    h1, p {
+        display: none;
+    }
+}
+
+div#navigation {
+    z-index: 500;
+    position: relative;
+    height: 60px;
+    margin-top: -70px;
+    background-color: rgba(0,0,0,1);
+    padding-bottom: 10px;
+    ul {
+        margin-top: 12px;
+        
+        li {
+            vertical-align: middle;
+            display: inline-block;
+            a.anchor-link {
+                color: #fefefe;
+                &:hover {
+                    text-decoration: none;
+                    color: #81f0f0;
+                }
+            }
+            margin: 0 18px;
+            font-size: 18px;
+            font-weight: bold;
+            a.registration {
+                margin-left: 24px;
+                text-transform: uppercase;
+            }
+        }
+    }
+    li.active a.anchor-link {
+        color: #efe9a1;
+    }
+}
+
+div#about-content {
+    background-image: url('/images/tile-liteblue.gif');
+}
+
+div#where-content {
+    background-image: url('/images/tile-grey.gif');
+    
+}
+
+div#sponsors-content {
+    background-color: #fff;
+}
+
+.page-section {
+    padding-top: 80px;
+    padding-bottom: 60px
+}
+
+div#footer {
+    height: 400px;
+    text-align: left;
+    background-image: url('/images/tile-black.gif');
+    padding-top: 60px;
+    p {
+        color: #ccc;
+        font-weight: 300;
+    }
+    h4, h5 {
+        color: #eee;
+        margin-top: 0;
+    }
+    .social {
+        p {
+            font-size: 12px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+    .credit {
+        margin-top: 140px;
+        font-size: 11px;
+        color: #666;
+        a {
+            color: #999;
+        }
+    }
+}
+
+div#sponsor-container {
+    img {
+        margin: 12px 0;
+    }
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+div.left {
+    margin-top: 18px;
+    text-align: left;
+}
+
+h1, h2 {
+
+    text-shadow: 0 0 1px rgba(0,0,0,.03);
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+h1 {
+    text-shadow: 0 1px 0 #fff;
+    margin-bottom: 8px;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    font-weight: 300;
+}
+
+div.about-content p {
+    font-size: 19px;
+    line-height: 28px;
+}
+
+.break {
+    text-align: center;
+}
+
+li {
+    font-size: 15px;
+    line-height: 21px;
+    color: #555;
+}
+h4, h5 {
+    text-transform: uppercase;
+}
+
+h5 {
+    line-height: 24px;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+h4 {
+    margin-top: 24px;
+}
+
+li.name {
+    font-size: 15px;
+    color: #333;
+}
+
+li.contact {
+    margin-bottom: 12px;
+}
+
+div.schedule-box,
+div.prizes-box {
+    background-color: #fefefe;
+    border: 1px dotted #333;
+    .border-radius(5px);
+    padding: 24px 0;
+    margin-bottom: 12px;
+}
+
+div.prizes-box {
+    padding: 18px 0 12px;
+    margin: 24px 0 0;
+    h4 {
+        line-height: 12px;
+        margin-top: 0;
+        margin-bottom: 18px;
+        font-size: 12px;
+        font-weight: #111;
+    }
+    .prize {
+        display: inline;
+        text-align: center;
+        margin: 0 8px;
+        .place {
+            font-size: 11px;
+            color: #999;
+            text-transform: uppercase;
+        }
+        .value {
+            font-size: 32px;
+            color: #111;
+            font-weight:bold;
+        }
+        span {
+            display: inline-block;
+        }
+    }
+    p {
+        margin-top: 8px;
+    }
+}
+
+.amp {
+    font-family: 'Baskerville', Times New Roman, Times, serif;
+    font-style: oblique;
+    font-weight: normal;
+}
+
+#reg.btn {
+    margin-top: 346px;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 18px;
+}
