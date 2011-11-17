@@ -1,0 +1,11 @@
+h1. Event-o-matic
+
+Event-o-matic is a simple, one-page static site designed for events. It's not fancy, but it Gets The Job Done.
+
+This started life as a quick collaboration with "@thunderb4dawn":http://twitter.com/thunderb4dawn to help promote "Hollywood Hack Day":http://hollywoodhackday.com in October 2011.
+
+Everything you need to bang out a one-pager for your event is all here including .psd templates for the header, logo and background tiles.
+
+h2. Credits
+
+This template is reliant on everyone's best friend "Twitter Bootstrap":http://github.com/twitter/bootstrap for some styles and a tiny bit of functionality (bootstrap-scrollspy.js).
